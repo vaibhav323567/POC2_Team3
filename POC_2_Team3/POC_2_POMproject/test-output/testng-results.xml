@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23662" started-at="2019-08-14T05:29:31Z" finished-at="2019-08-14T05:29:54Z">
+    <groups>
+    </groups>
+    <test name="POMpoc_2" duration-ms="23662" started-at="2019-08-14T05:29:31Z" finished-at="2019-08-14T05:29:54Z">
+      <class name="testNG.TestNGrunner1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.TestNGrunner1@224edc67]" name="beforeClass" is-config="true" duration-ms="10382" started-at="2019-08-14T05:29:31Z" finished-at="2019-08-14T05:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verify_title()[pri:1, instance:testNG.TestNGrunner1@224edc67]" name="verify_title" duration-ms="236" started-at="2019-08-14T05:29:41Z" finished-at="2019-08-14T05:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_title -->
+        <test-method status="PASS" signature="verify_click()[pri:2, instance:testNG.TestNGrunner1@224edc67]" name="verify_click" duration-ms="1427" started-at="2019-08-14T05:29:52Z" finished-at="2019-08-14T05:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_click -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.TestNGrunner1@224edc67]" name="afterClass" is-config="true" duration-ms="145" started-at="2019-08-14T05:29:54Z" finished-at="2019-08-14T05:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.TestNGrunner1 -->
+      <class name="testNG.TestNGrunner2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.TestNGrunner2@14acaea5]" name="beforeClass" is-config="true" duration-ms="8869" started-at="2019-08-14T05:29:41Z" finished-at="2019-08-14T05:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="reading_values()[pri:1, instance:testNG.TestNGrunner2@14acaea5]" name="reading_values" duration-ms="2208" started-at="2019-08-14T05:29:50Z" finished-at="2019-08-14T05:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reading_values -->
+        <test-method status="PASS" signature="verify_book_name(java.lang.String)[pri:2, instance:testNG.TestNGrunner2@14acaea5]" name="verify_book_name" duration-ms="52" started-at="2019-08-14T05:29:54Z" data-provider="productname" finished-at="2019-08-14T05:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MySQL and mSQL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_book_name -->
+        <test-method status="PASS" signature="verify_book_price(java.lang.String)[pri:3, instance:testNG.TestNGrunner2@14acaea5]" name="verify_book_price" duration-ms="36" started-at="2019-08-14T05:29:54Z" data-provider="productprice" finished-at="2019-08-14T05:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27.96]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_book_price -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.TestNGrunner2@14acaea5]" name="afterClass" is-config="true" duration-ms="151" started-at="2019-08-14T05:29:54Z" finished-at="2019-08-14T05:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.TestNGrunner2 -->
+    </test> <!-- POMpoc_2 -->
+  </suite> <!-- Suite -->
+</testng-results>

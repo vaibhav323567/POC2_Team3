@@ -1,0 +1,20 @@
+13/08/2019 23:10:22 devpinoyLogger Method title_of_page() executed 
+Expected Result: Online Bookstore
+ Actual Result: Online Bookstore
+ Test Result: pass
+13/08/2019 23:10:32 devpinoyLogger Method read_excel() executed 
+Expected Result: MySQL and mSQL
+ Actual Result: MySQL and mSQL
+ Test Result: pass
+13/08/2019 23:10:33 devpinoyLogger Method click_search() executed 
+Expected Result: Clicked
+ Actual Result: clicked
+ Test Result: pass
+13/08/2019 23:10:34 devpinoyLogger Method verifybook() executed 
+Expected Result: MySQL and mSQL
+ Actual Result: MySQL and mSQL
+ Test Result: pass
+13/08/2019 23:10:34 devpinoyLogger Method verifyprice() executed 
+Expected Result: 27.96
+ Actual Result: 27.96
+ Test Result: pass
